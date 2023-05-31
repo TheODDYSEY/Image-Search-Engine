@@ -42,7 +42,7 @@ await client.schema
 //  store an image   
 const { readFileSync } = require('fs');
 
- const img = readFileSync('./img/hi-mom.jpg');
+ const img = readFileSync('images\matrix.jpg');
 
 const b64 = Buffer.from(img).toString('base64');
 
