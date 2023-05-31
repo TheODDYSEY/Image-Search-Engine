@@ -1,5 +1,8 @@
 # Weaviate Meme Search Project
 
+
+**Note: This is an ongoing project and is not yet finished.**
+
 This project demonstrates how to use the Weaviate knowledge graph to store and search for memes based on images. It utilizes the Weaviate JavaScript client library (`weaviate-ts-client`) for interacting with the Weaviate instance.
 
 ## Prerequisites
