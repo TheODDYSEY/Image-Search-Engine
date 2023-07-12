@@ -40,7 +40,7 @@ await client.schema
 
 
 //  store an image   
-const { readFileSync } = require('fs');
+import {readFileSync} from 'fs';
 
  const img = readFileSync('images\matrix.jpg');
 
