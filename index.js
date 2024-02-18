@@ -25,7 +25,12 @@ await client.schema.classCreator().withClass(schemaConfig).do();
 // STORE AN IMAGE
 const img = readFileSync("./img/hi-mom.jpg");
 
+<<<<<<< HEAD
 const b64 = Buffer.from(img).toString("base64");
+=======
+//  store an image   
+import {readFileSync} from 'fs';
+>>>>>>> origin/master
 
 await client.data
   .creator()
