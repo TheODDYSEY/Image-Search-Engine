@@ -17,33 +17,33 @@ This project demonstrates how to use the Weaviate knowledge graph to store and s
    ```bash
    git clone https://github.com/TheODDYSEY/Image-Search-Engine.git
 
-
 2.Install the dependencies:
 
-   `` bash
+   ```  bash
     cd Image-Search-Engine
     npm install
+```
 
 
 3.Update the Weaviate instance details in index.js:
 
-    ``javascript
-    Copy code
+   ```
     const client = weaviate.client({
         scheme: 'http',
         host: 'localhost:8080',
     });
-
+```
 4.Create the "Meme" schema and store an image:
     Make sure you have the image file matrix.jpg in the ./img directory.
     
 
 5.Query an image:
 
-    Make sure you have the image file matrix.jpg in the project directory.
+Make sure you have the image file matrix.jpg in the project directory.
     
-    Run the following command:
+Run the following command:
+```
         node index.js
-
-# # CONTRIBUTING
+```
+# CONTRIBUTING
 Contributions are welcome! If you find any issues or have suggestions, please open an issue or submit a pull request.
